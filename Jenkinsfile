@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Run tests') {
       steps {
-        browserstack(credentialsId: 'b59572cc-e3ee-46f4-ae4c-3143838a9b45') {
+        browserstack(credentialsId: 'a6a239d1-4009-4c65-a527-b2ce8f7c99fd') {
            bat 'mvn test -D sample-test.testng.xml'
         }
       }
