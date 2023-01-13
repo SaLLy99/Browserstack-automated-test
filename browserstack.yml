@@ -33,10 +33,10 @@ platforms:
     osVersion: 10
     browserName: Firefox
     browserVersion: 102.0
-  - os: OS X
-    osVersion: Big Sur
-    browserName: Safari
-    browserVersion: 14.1
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 103.0
 
 # =======================
 # Parallels per Platform
